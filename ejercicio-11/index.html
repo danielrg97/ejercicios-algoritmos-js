@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ejercicio 10</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<!--
+		No entendi muy bien el enunciado del ejercicio asi que hice un algoritmo que recibe una cadena de texto
+		con palabras claves entre corchetes y al hacer clic en 'Agregar cadena' los añade a una estructura similar
+		a la que está en la ilustracion pero con notacion JSON
+	-->
+	<h1>Token - estructurar cadena de texto</h1>
+	<input style="width: 600px" type="text" name="insert" id="cadena" placeholder="Agregue array de palabras clave (palabra clave va entre corchetes)" value="{CODIGO},{NOMBRE},{APELLIDO}">
+	<input type="button" name="agregar" value="Agregar Cadena" onclick="agregarPorCadena()">
+	<pre id="token"></pre>
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>

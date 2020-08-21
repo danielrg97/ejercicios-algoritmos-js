@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ejercicio 8 - Estructuras de datos</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<div style="margin: 50px; align-content: center; padding: 100px;">
+		<h3>Explicacion:</h3>
+		<p>El banco tiene una fila donde ingresan personas representadas por un consecutivo(ficho del turno), cada persona debe llegar al inicio de la cola (Que seria la ultima posicion).</p>
+
+		<p>Cuando una persona se cola en la fila, se sobrepone al final de la fila para ser el primero en ser atendido.</p>
+		<p>Cada persona se representa como</p>
+		<pre><[consecutivo persona adelante | consecutivo persona | consecutivo persona atras]></pre>
+		<input type="button" value="Añadir persona al inicio" onclick="añadirElemento()"><input type="button" value="Eliminar persona al inicio" onclick="eliminarPrimerElemento()">
+		<br>
+		<input type="button" value="Colar una persona al final" onclick="colarElemento()">
+		<pre id="lista"></pre>	
+	</div>
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>

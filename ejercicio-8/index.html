@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ejercicio 7 - Estructuras de datos</title>
+	<meta charset="utf-8">
+</head>
+<body>	
+	<div style="margin: 50px; align-content: center; padding: 100px;">
+		<div style="display: flex;">
+			<div>
+				<label>Agrega un producto a la transacción</label>
+				<br>
+		 		<select id="selectProd" onchange="agregarProductoATransaccion()"></select>
+			</div>
+		</div>
+		<h5>Productos añadidos a la transacción</h5>
+		<pre id='pila' style="text-align: right; width: 100px; margin: 5em;"></pre>
+
+		<input style="margin: 10px;" type="button" name="pagar" onclick="pagar()" value="Pay">
+	</div>
+
+	
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
